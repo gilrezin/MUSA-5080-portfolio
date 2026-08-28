@@ -35,9 +35,9 @@ sessionInfo()$R.version$version.string
 
 <!-- CHANGE THIS: 3-4 sentences -->
 
-What I want out of this course:
+What I want out of this course is to iteratively refine my skills in urban modeling and prediction. I know how to do many of them, but I don't know how to do them well yet.
 
-One thing I'm nervous about:
+One thing I'm nervous about is that I won't differentiate my assignments significantly enough from the other classes I take in this program. I want this class to have provided me value that I may demonstrate to future employers, after all.
 
 ## Questions I Still Have
 
