@@ -16,7 +16,7 @@ urban policy questions.
 <!-- CHANGE THIS: two or three sentences about yourself -->
 
 I'm a student in the MUSA program at Penn. My background is in
-[YOUR BACKGROUND], and I'm interested in [YOUR INTERESTS].
+computer science, and I'm interested in predictive modeling & machine learning on urban data for granular policymaking.
 
 ## What You'll Find Here
 

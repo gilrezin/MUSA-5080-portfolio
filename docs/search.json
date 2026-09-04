@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Welcome to my portfolio for MUSA 5080: Public Policy Analytics at the University of Pennsylvania.\nThis site documents my work in the Master of Urban Spatial Analytics program — weekly notes, course assignments, and a final project applying data analysis to urban policy questions.\n\n\n\nI’m a student in the MUSA program at Penn. My background is in [YOUR BACKGROUND], and I’m interested in [YOUR INTERESTS].\n\n\n\n\nWeekly Notes — what I’m learning each week\nAssignments — analyses completed for the course\nAbout — more background and how to reach me\n\n\n\n\n\nEmail: grezin@upenn.edu\nGitHub: @gilrezin"
+    "text": "Welcome to my portfolio for MUSA 5080: Public Policy Analytics at the University of Pennsylvania.\nThis site documents my work in the Master of Urban Spatial Analytics program — weekly notes, course assignments, and a final project applying data analysis to urban policy questions.\n\n\n\nI’m a student in the MUSA program at Penn. My background is in computer science, and I’m interested in predictive modeling & machine learning on urban data for granular policymaking.\n\n\n\n\nWeekly Notes — what I’m learning each week\nAssignments — analyses completed for the course\nAbout — more background and how to reach me\n\n\n\n\n\nEmail: grezin@upenn.edu\nGitHub: @gilrezin"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Home",
     "section": "",
-    "text": "I’m a student in the MUSA program at Penn. My background is in [YOUR BACKGROUND], and I’m interested in [YOUR INTERESTS]."
+    "text": "I’m a student in the MUSA program at Penn. My background is in computer science, and I’m interested in predictive modeling & machine learning on urban data for granular policymaking."
   },
   {
     "objectID": "index.html#what-youll-find-here",
@@ -72,30 +72,30 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "Write a few paragraphs about yourself here: where you came from before MUSA, what drew you to urban spatial analytics, and what you’re hoping to do with it."
+    "text": "I have a bachelor’s in computer science - what drew me to MUSA was a separate interest in urban geography. Throughout my undergrad, I would create projects in Python and R that would analyze urban data, combining both of my interests together for work in classes and as president of the local advocacy club. What I hope to work on now relates to using cutting-edge models to find new insights in large-scale urban datasets using novel methods."
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "Write a few paragraphs about yourself here: where you came from before MUSA, what drew you to urban spatial analytics, and what you’re hoping to do with it."
+    "text": "I have a bachelor’s in computer science - what drew me to MUSA was a separate interest in urban geography. Throughout my undergrad, I would create projects in Python and R that would analyze urban data, combining both of my interests together for work in classes and as president of the local advocacy club. What I hope to work on now relates to using cutting-edge models to find new insights in large-scale urban datasets using novel methods."
   },
   {
     "objectID": "about.html#skills",
     "href": "about.html#skills",
-    "title": "About",
+    "title": "About Me",
     "section": "Skills",
-    "text": "Skills\n\n\nLanguages & Tools: R, Quarto, Git\nSpatial: (add as you learn)\nData: US Census / ACS via tidycensus"
+    "text": "Skills\n\n\nLanguages & Tools: Python, R, Quarto, Git\nSpatial: (add as you learn)\nData: US Census / ACS via tidycensus"
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
-    "title": "About",
+    "title": "About Me",
     "section": "Contact",
-    "text": "Contact\n\n\nEmail: your-email@upenn.edu\nGitHub: @your-username"
+    "text": "Contact\n\n\nEmail: grezin@upenn.edu\nGitHub: @your-username"
   },
   {
     "objectID": "assignments/index.html",
