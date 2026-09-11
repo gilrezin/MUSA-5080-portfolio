@@ -1,73 +1,59 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Welcome to my portfolio for MUSA 5080: Public Policy Analytics at the University of Pennsylvania.\nThis site documents my work in the Master of Urban Spatial Analytics program — weekly notes, course assignments, and a final project applying data analysis to urban policy questions.\n\n\n\nI’m a student in the MUSA program at Penn. My background is in computer science, and I’m interested in predictive modeling & machine learning on urban data for granular policymaking.\n\n\n\n\nWeekly Notes — what I’m learning each week\nAssignments — analyses completed for the course\nAbout — more background and how to reach me\n\n\n\n\n\nEmail: grezin@upenn.edu\nGitHub: @gilrezin"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Home",
-    "section": "",
-    "text": "I’m a student in the MUSA program at Penn. My background is in computer science, and I’m interested in predictive modeling & machine learning on urban data for granular policymaking."
-  },
-  {
-    "objectID": "index.html#what-youll-find-here",
-    "href": "index.html#what-youll-find-here",
-    "title": "Home",
-    "section": "",
-    "text": "Weekly Notes — what I’m learning each week\nAssignments — analyses completed for the course\nAbout — more background and how to reach me"
-  },
-  {
-    "objectID": "index.html#get-in-touch",
-    "href": "index.html#get-in-touch",
-    "title": "Home",
-    "section": "",
-    "text": "Email: grezin@upenn.edu\nGitHub: @gilrezin"
-  },
-  {
-    "objectID": "weekly-notes/week-01.html",
-    "href": "weekly-notes/week-01.html",
+    "objectID": "weekly-notes/week-02.html",
+    "href": "weekly-notes/week-02.html",
     "title": "Week 1: Getting Set Up",
     "section": "",
     "text": "Set up the portfolio workflow: made a repository from a template, cloned it with GitHub Desktop, edited files in RStudio, rendered with Quarto, and published to GitHub Pages."
   },
   {
-    "objectID": "weekly-notes/week-01.html#what-we-did",
-    "href": "weekly-notes/week-01.html#what-we-did",
+    "objectID": "weekly-notes/week-02.html#what-we-did",
+    "href": "weekly-notes/week-02.html#what-we-did",
     "title": "Week 1: Getting Set Up",
     "section": "",
     "text": "Set up the portfolio workflow: made a repository from a template, cloned it with GitHub Desktop, edited files in RStudio, rendered with Quarto, and published to GitHub Pages."
   },
   {
-    "objectID": "weekly-notes/week-01.html#key-concepts",
-    "href": "weekly-notes/week-01.html#key-concepts",
+    "objectID": "weekly-notes/week-02.html#key-concepts",
+    "href": "weekly-notes/week-02.html#key-concepts",
     "title": "Week 1: Getting Set Up",
     "section": "Key Concepts",
     "text": "Key Concepts\nThree places a file can live:\n\nMy computer — where I edit\nGitHub.com — where it’s stored\nMy live site — what the world sees\n\nThe loop: Edit → Save → Render → Commit → Push → wait → refresh"
   },
   {
-    "objectID": "weekly-notes/week-01.html#proving-r-works",
-    "href": "weekly-notes/week-01.html#proving-r-works",
+    "objectID": "weekly-notes/week-02.html#proving-r-works",
+    "href": "weekly-notes/week-02.html#proving-r-works",
     "title": "Week 1: Getting Set Up",
     "section": "Proving R Works",
     "text": "Proving R Works\nThe chunk below runs when this page renders. If you can see a result underneath it on your published site, R and Quarto are talking to each other correctly.\n\nsessionInfo()$R.version$version.string\n\n[1] \"R version 4.6.1 (2026-06-24 ucrt)\""
   },
   {
-    "objectID": "weekly-notes/week-01.html#reflection",
-    "href": "weekly-notes/week-01.html#reflection",
+    "objectID": "weekly-notes/week-02.html#reflection",
+    "href": "weekly-notes/week-02.html#reflection",
     "title": "Week 1: Getting Set Up",
     "section": "Reflection",
     "text": "Reflection\n\nWhat I want out of this course is to iteratively refine my skills in urban modeling and prediction. I know how to do many of them, but I don’t know how to do them well yet.\nOne thing I’m nervous about is that I won’t differentiate my assignments significantly enough from the other classes I take in this program. I want this class to have provided me value that I may demonstrate to future employers, after all."
   },
   {
-    "objectID": "weekly-notes/week-01.html#questions-i-still-have",
-    "href": "weekly-notes/week-01.html#questions-i-still-have",
+    "objectID": "weekly-notes/week-02.html#questions-i-still-have",
+    "href": "weekly-notes/week-02.html#questions-i-still-have",
     "title": "Week 1: Getting Set Up",
     "section": "Questions I Still Have",
     "text": "Questions I Still Have"
+  },
+  {
+    "objectID": "weekly-notes/index.html",
+    "href": "weekly-notes/index.html",
+    "title": "Weekly Notes",
+    "section": "",
+    "text": "Notes from each week of MUSA 5080. New entries appear here automatically — add a .qmd file to this folder and render.\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: dplyr and Census\n\n\nTable functions and acs data.\n\n\n\n\n\nSep 4, 2026\n\n\n\n\n\n\n\nWeek 1: Getting Set Up\n\n\nFirst impressions, and getting the workflow running.\n\n\n\n\n\nAug 28, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "data/readme.html",
+    "href": "data/readme.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\nData files for MUSA 5080\nDownload assignment data from Canvas and save it here. Do not rename the files! Have a nice day :)"
   },
   {
     "objectID": "about.html",
@@ -102,20 +88,153 @@
     "href": "assignments/index.html",
     "title": "Assignments",
     "section": "",
-    "text": "Completed assignments for MUSA 5080. New assignments appear here automatically once you add the .qmd file to this folder and render.\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Completed assignments for MUSA 5080. New assignments appear here automatically once you add the .qmd file to this folder and render.\n\n\n\n\n\n\n\n\n\n\n\nAssignment 2: Who Do We Know the Least About?\n\n\n\n\n\n\n\n\nSep 10, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "weekly-notes/index.html",
-    "href": "weekly-notes/index.html",
-    "title": "Weekly Notes",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
     "section": "",
-    "text": "Notes from each week of MUSA 5080. New entries appear here automatically — add a .qmd file to this folder and render.\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Getting Set Up\n\n\nFirst impressions, and getting the workflow running.\n\n\n\n\n\nAug 28, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my portfolio for MUSA 5080: Public Policy Analytics at the University of Pennsylvania.\nThis site documents my work in the Master of Urban Spatial Analytics program — weekly notes, course assignments, and a final project applying data analysis to urban policy questions.\n\n\n\nI’m a student in the MUSA program at Penn. My background is in computer science, and I’m interested in predictive modeling & machine learning on urban data for granular policymaking.\n\n\n\n\nWeekly Notes — what I’m learning each week\nAssignments — analyses completed for the course\nAbout — more background and how to reach me\n\n\n\n\n\nEmail: grezin@upenn.edu\nGitHub: @gilrezin"
   },
   {
-    "objectID": "data/readme.html",
-    "href": "data/readme.html",
-    "title": "",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home",
     "section": "",
-    "text": "Code\n\n\n\n\nData files for MUSA 5080\nDownload assignment data from Canvas and save it here. Do not rename the files! Have a nice day :)"
+    "text": "I’m a student in the MUSA program at Penn. My background is in computer science, and I’m interested in predictive modeling & machine learning on urban data for granular policymaking."
+  },
+  {
+    "objectID": "index.html#what-youll-find-here",
+    "href": "index.html#what-youll-find-here",
+    "title": "Home",
+    "section": "",
+    "text": "Weekly Notes — what I’m learning each week\nAssignments — analyses completed for the course\nAbout — more background and how to reach me"
+  },
+  {
+    "objectID": "index.html#get-in-touch",
+    "href": "index.html#get-in-touch",
+    "title": "Home",
+    "section": "",
+    "text": "Email: grezin@upenn.edu\nGitHub: @gilrezin"
+  },
+  {
+    "objectID": "weekly-notes/week-01.html",
+    "href": "weekly-notes/week-01.html",
+    "title": "Week 2: dplyr and Census",
+    "section": "",
+    "text": "Set up the portfolio workflow: made a repository from a template, cloned it with GitHub Desktop, edited files in RStudio, rendered with Quarto, and published to GitHub Pages."
+  },
+  {
+    "objectID": "weekly-notes/week-01.html#what-we-did",
+    "href": "weekly-notes/week-01.html#what-we-did",
+    "title": "Week 2: dplyr and Census",
+    "section": "",
+    "text": "Set up the portfolio workflow: made a repository from a template, cloned it with GitHub Desktop, edited files in RStudio, rendered with Quarto, and published to GitHub Pages."
+  },
+  {
+    "objectID": "weekly-notes/week-01.html#key-concepts",
+    "href": "weekly-notes/week-01.html#key-concepts",
+    "title": "Week 2: dplyr and Census",
+    "section": "Key Concepts",
+    "text": "Key Concepts\nThree places a file can live:\n\nMy computer — where I edit\nGitHub.com — where it’s stored\nMy live site — what the world sees\n\nThe loop: Edit → Save → Render → Commit → Push → wait → refresh"
+  },
+  {
+    "objectID": "weekly-notes/week-01.html#proving-r-works",
+    "href": "weekly-notes/week-01.html#proving-r-works",
+    "title": "Week 2: dplyr and Census",
+    "section": "Proving R Works",
+    "text": "Proving R Works\nThe chunk below runs when this page renders. If you can see a result underneath it on your published site, R and Quarto are talking to each other correctly.\n\nsessionInfo()$R.version$version.string\n\n[1] \"R version 4.6.1 (2026-06-24 ucrt)\""
+  },
+  {
+    "objectID": "weekly-notes/week-01.html#reflection",
+    "href": "weekly-notes/week-01.html#reflection",
+    "title": "Week 2: dplyr and Census",
+    "section": "Reflection",
+    "text": "Reflection\n\nWhat I want out of this course is to iteratively refine my skills in urban modeling and prediction. I know how to do many of them, but I don’t know how to do them well yet.\nOne thing I’m nervous about is that I won’t differentiate my assignments significantly enough from the other classes I take in this program. I want this class to have provided me value that I may demonstrate to future employers, after all."
+  },
+  {
+    "objectID": "weekly-notes/week-01.html#questions-i-still-have",
+    "href": "weekly-notes/week-01.html#questions-i-still-have",
+    "title": "Week 2: dplyr and Census",
+    "section": "Questions I Still Have",
+    "text": "Questions I Still Have"
+  },
+  {
+    "objectID": "assignments/assignment2.html",
+    "href": "assignments/assignment2.html",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "",
+    "text": "library(tidyverse)\nlibrary(tidycensus)"
+  },
+  {
+    "objectID": "assignments/assignment2.html#setup",
+    "href": "assignments/assignment2.html#setup",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "",
+    "text": "library(tidyverse)\nlibrary(tidycensus)"
+  },
+  {
+    "objectID": "assignments/assignment2.html#the-question",
+    "href": "assignments/assignment2.html#the-question",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "The question",
+    "text": "The question\nEvery number the American Community Survey publishes is an estimate drawn from a sample, not a count. That means every number comes with a margin of error — a statement about how wrong it might be.\nMost people ignore it. In this assignment, you won’t.\nIn this analysis, I look at median age across counties in Washington State, and ask which communities we measure most and least reliably. Median age is a useful metric to policymakers, as it can be used in determining funding for state programs such as youth or senior programs."
+  },
+  {
+    "objectID": "assignments/assignment2.html#choosing-what-to-measure",
+    "href": "assignments/assignment2.html#choosing-what-to-measure",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "Choosing what to measure",
+    "text": "Choosing what to measure\n\nmy_state &lt;- \"WA\"        # two-letter abbreviation, in quotes\nmy_variable &lt;- \"B01002_001\"     # the variable code, in quotes"
+  },
+  {
+    "objectID": "assignments/assignment2.html#pulling-the-data",
+    "href": "assignments/assignment2.html#pulling-the-data",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "Pulling the data",
+    "text": "Pulling the data\n\ncounty_data &lt;- get_acs(\n  geography = \"county\",\n  variables = my_variable,\n  state = my_state,\n  year = 2023,\n  survey = \"acs5\"\n)\n\nLet’s look at what came back.\n\ndim(county_data)\n\n[1] 39  5\n\nhead(county_data)\n\n# A tibble: 6 × 5\n  GEOID NAME                       variable   estimate   moe\n  &lt;chr&gt; &lt;chr&gt;                      &lt;chr&gt;         &lt;dbl&gt; &lt;dbl&gt;\n1 53001 Adams County, Washington   B01002_001     29.2   0.3\n2 53003 Asotin County, Washington  B01002_001     45.5   0.6\n3 53005 Benton County, Washington  B01002_001     36.2   0.2\n4 53007 Chelan County, Washington  B01002_001     40.4   0.4\n5 53009 Clallam County, Washington B01002_001     51.8   0.3\n6 53011 Clark County, Washington   B01002_001     38.9   0.2\n\n\nThere are 39 counties in Washington. Therefore, our query returned 39 rows: one per county."
+  },
+  {
+    "objectID": "assignments/assignment2.html#how-big-is-the-margin-of-error",
+    "href": "assignments/assignment2.html#how-big-is-the-margin-of-error",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "How big is the margin of error?",
+    "text": "How big is the margin of error?\nA margin of error of 3,000 means something very different for an estimate of 20,000 than for an estimate of 200,000. To compare across places, we need it as a percentage.\n\ncounty_data &lt;- county_data %&gt;%\n  mutate(moe_pct = moe / estimate * 100)\n\nNow sort to see which counties are measured least reliably.\n\ncounty_data %&gt;%\n  arrange(desc(moe_pct)) %&gt;%\n  select(NAME, estimate, moe, moe_pct) %&gt;%\n  head(10)\n\n# A tibble: 10 × 4\n   NAME                           estimate   moe moe_pct\n   &lt;chr&gt;                             &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;\n 1 Garfield County, Washington        52.6   4.3    8.17\n 2 Wahkiakum County, Washington       54.8   2.2    4.01\n 3 Columbia County, Washington        52.1   1.9    3.65\n 4 Douglas County, Washington         38.4   1      2.60\n 5 Skamania County, Washington        48.6   1      2.06\n 6 Kittitas County, Washington        37.9   0.7    1.85\n 7 Walla Walla County, Washington     38.3   0.6    1.57\n 8 Whitman County, Washington         26.1   0.4    1.53\n 9 Ferry County, Washington           52.8   0.7    1.33\n10 Asotin County, Washington          45.5   0.6    1.32\n\n\nGarfield County has the least reliable estimate, with a margin of error of 8.17%."
+  },
+  {
+    "objectID": "assignments/assignment2.html#sorting-counties-into-reliability-categories",
+    "href": "assignments/assignment2.html#sorting-counties-into-reliability-categories",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "Sorting counties into reliability categories",
+    "text": "Sorting counties into reliability categories\n\ncounty_data &lt;- county_data %&gt;%\n  mutate(reliability = case_when(\n    moe_pct &lt; 3  ~ \"High confidence\",\n    moe_pct &lt; 6 ~ \"Moderate\",\n    TRUE         ~ \"Low confidence\"\n  ))\n\ncount(county_data, reliability)\n\n# A tibble: 3 × 2\n  reliability         n\n  &lt;chr&gt;           &lt;int&gt;\n1 High confidence    36\n2 Low confidence      1\n3 Moderate            2\n\n\nAssuming that a high confidence lies with less than 3 percent MOE, 36/39 counties are classified as “High confidence”. Of the remaining three, just Garfield County is of Low confidence (&gt;6% MOE). The two remaining counties are of moderate confidence."
+  },
+  {
+    "objectID": "assignments/assignment2.html#is-the-margin-of-error-bigger-in-small-places",
+    "href": "assignments/assignment2.html#is-the-margin-of-error-bigger-in-small-places",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "Is the margin of error bigger in small places?",
+    "text": "Is the margin of error bigger in small places?\nTo answer this we need population and our variable side by side, in the same row. That means a wide pull.\n\ncounty_wide &lt;- get_acs(\n  geography = \"county\",\n  variables = c(myvar = my_variable,\n                pop   = \"B01003_001\"),\n  state = my_state,\n  year = 2023,\n  survey = \"acs5\",\n  output = \"wide\"\n)\n\nhead(county_wide)\n\n# A tibble: 6 × 6\n  GEOID NAME                       myvarE myvarM   popE  popM\n  &lt;chr&gt; &lt;chr&gt;                       &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;\n1 53001 Adams County, Washington     29.2    0.3  20690    NA\n2 53003 Asotin County, Washington    45.5    0.6  22424    NA\n3 53005 Benton County, Washington    36.2    0.2 210224    NA\n4 53007 Chelan County, Washington    40.4    0.4  79518    NA\n5 53009 Clallam County, Washington   51.8    0.3  77593    NA\n6 53011 Clark County, Washington     38.9    0.2 510516    NA\n\n\n\ncounty_wide &lt;- county_wide %&gt;%\n  mutate(moe_pct = myvarM / myvarE * 100) %&gt;%\n  mutate(reliability = case_when(\n    moe_pct &lt; 3  ~ \"High confidence\",\n    moe_pct &lt; 6 ~ \"Moderate\",\n    TRUE         ~ \"Low confidence\"\n  ))\n\nNow compare the average population of counties in each reliability category.\n\ncounty_wide %&gt;%\n  group_by(reliability) %&gt;%\n  summarize(\n    n_counties = n(),\n    avg_population = mean(popE)\n  )\n\n# A tibble: 3 × 3\n  reliability     n_counties avg_population\n  &lt;chr&gt;                &lt;int&gt;          &lt;dbl&gt;\n1 High confidence         36        214725.\n2 Low confidence           1          2326 \n3 Moderate                 2          4284.\n\n\nThe average population of high-confidence counties is significantly higher than that of low and moderate-confidence counties. Similarly, moderate-confidence counties have higher populations than low-confidence counties. Thus, there appears to exist a direct linear relationship between a county’s population and MOE confidence."
+  },
+  {
+    "objectID": "assignments/assignment2.html#what-this-means-for-policy",
+    "href": "assignments/assignment2.html#what-this-means-for-policy",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "What this means for policy",
+    "text": "What this means for policy\nAs a result of high margins of error, we know the least about the least populous counties in Washington state: Garfield, Wahkiakum, and Columbia counties. Due to its high margin of error, Garfield County has a median age of 52.6 +/- 8.17%. This means that the actual median age of Garfield County is anywhere between 48.3 and 56.9. This is a very wide range, the reason of which comes from the way the ACS works in practice. The 5-year ACS (American Community Survey) is a survey run by the United States Census Bureau that samples approximately 3.5% of the US population per survey conducted. As this is a sample, smaller regions will have less respondents relative to more populous regions. For example, Grant County, WA (population 100,428) would have an approximate sample size of 3,515 people; this yields an MOE of 0.9%. By contrast, a much smaller county such as Columbia County, WA (population 3,996) would only have an approximate sample size of 140 people; this yields in an MOE of 3.6%. When less individuals are sampled overall across a geographic area, the overall result has increased sampling variability, increasing the overall margin of error. This can have downstream effects for policymakers: to not know with accuracy the median age of a county, for example, can result in incorrect funding for schools (hurting younger individuals) or senior support programs (older individuals)."
+  },
+  {
+    "objectID": "assignments/assignment2.html#optional-challenges---for-those-craving-more",
+    "href": "assignments/assignment2.html#optional-challenges---for-those-craving-more",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "Optional challenges - For those craving more",
+    "text": "Optional challenges - For those craving more"
+  },
+  {
+    "objectID": "assignments/assignment2.html#before-you-submit",
+    "href": "assignments/assignment2.html#before-you-submit",
+    "title": "Assignment 2: Who Do We Know the Least About?",
+    "section": "Before you submit",
+    "text": "Before you submit"
   }
 ]
