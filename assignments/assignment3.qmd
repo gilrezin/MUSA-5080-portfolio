@@ -23,7 +23,7 @@ library(tidycensus)
 
 ## The question
 
-According to reporting by Axios, the share of single-person households in Seattle more than doubled in the course of 5 years, from 17% in 2016 to 40% in 2021. The report utilized ACS (American Community Survey) 1-year data to determine this. Should this statistic be taken at face value?
+According to [reporting by Axios](https://www.axios.com/local/seattle/2025/02/13/single-washington-state-mapped-solo), the share of single-person households in Seattle more than doubled in the course of 5 years, from 17% in 2016 to 40% in 2021. The report utilized ACS (American Community Survey) 1-year data to determine this. Should this statistic be taken at face value?
 
 **In this analysis, I utilize the margins of error provided by the ACS to determine the accuracy of this claim.**
 
