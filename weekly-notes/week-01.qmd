@@ -1,6 +1,6 @@
 ---
-title: "Week 2: dplyr and Census"
-description: "Table functions and acs data."
+title: "Week 1: Getting Set Up"
+description: "First Impressions, and getting the workflow running."
 date: 2026-09-04
 ---
 

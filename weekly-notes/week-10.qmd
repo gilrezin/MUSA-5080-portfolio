@@ -1,0 +1,34 @@
+---
+title: "Week 10: Logistic Regression"
+description: "Predicting a binary outcome, predictive recidivism"
+date: 2026-11-06
+---
+
+## What We Did
+Covered logistic regression, spatial cross validation, and introduced the next assignment on predicting recidivism.
+
+## Key Concepts
+Geographic Cross Validation: accounts for spatial autocorrelation by clustering the test cells (leave one district out)
+
+odds: how many times more likely it happens than doesn't happen; p/(1-p)
+ex: p=0.455
+0.455/(1-0.455) = 0.835
+(for every 100 people not arrested, 84 are)
+
+Logistic Regression predicts a binary outcome (0/1)
+- logit link function
+
+Confusion matrix: matrix between the predicted and actual values
+      |    Actual 1    |    Actual 0    |
+------|----------------|----------------|
+True  | True Positive  | False Positive |
+False | False Negative | True Negative  |
+
+Sensitivity: true positives / (true positives + false negatives)
+
+Specificity: true negatives / (true negatives + false positives)
+
+Precision: true positives / all positives
+
+## Reflection
+This lecture was entirely review from what I had covered in not only statistics, but also machine learning classes I have taken in the past. That being said, I now feel more confident to work on such a problem than I would have before. I hope to begin the recidivism assignment as soon as I can.

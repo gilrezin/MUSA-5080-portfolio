@@ -1,0 +1,32 @@
+---
+title: "Week 9: Poisson Model"
+description: "To Predictive Police or not to Predictive Police"
+date: 2026-10-30
+---
+
+## What We Did
+
+Covered the Poisson model through the case study of predictive policing, and how such a model can be used for harm rather than good. We then proceeded to make one anyway just to demonstrate.
+
+## Key Concepts
+Poisson model: model that counts the number of times an independent event occurs in a fixed interval of space
+- non-negative number of times
+- probabilistic model
+
+EX: predictive policing
+- considered to be highly flawed as their data entered is flawed (where policing occurs in the past; only good at predicting future policing patterns)
+
+To build a predictive policing model:
+input: burglary point data
+- overlay equally-spaced grid over data (fishnet)
+- spatial join points to grid
+- most grid cells are 0, use the Poisson coefficient bc works well with lots of zeros
+- run LISA on dataset; find distance to hotspots
+
+Broken Windows Theory: applying signs of "disorder" to criminality
+- good: the built environment (vacant lot overgrowth)
+- bad: behavior of individuals
+
+## Reflection
+
+Overall, I found this lecture to be very interesting. At one point in the lecture, I asked an important question about predictive policing: if the data were not biased, would the model be ethically acceptable to use? This is definitely something to consider as we continue to address challenges of policy with data -- what other concerns might exist in predictive modelling that have negative externalities?

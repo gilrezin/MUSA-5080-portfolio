@@ -1,0 +1,32 @@
+---
+title: "Week 5: Machine Learning"
+description: "Building predictive models!"
+date: 2026-09-25
+---
+
+## What We Did
+
+Covered key introductory concepts of machine learning, built a basic predictive model.
+
+## Key Concepts
+
+Machine Learning: attempts to predict y given predictors x1, x2, ... , xk + err
+
+most basic form: linear regression
+
+models range in rigidness (interpretability) and flexibility
+- linear regression is the most rigid
+- neural nets are flexible but tough to explain and interpret
+
+parametric model: assumes the relationship can be represented in a functional form
+non-parametric model: assumes the data relationship is not easily explainable.
+
+RMSE: Root Mean Squared Error; loss function, lower is generally better.
+Overfitting: model has learned the noise; very non-generalizeable; very low RMSE
+
+Train/Test Split - typically 80/20 OR use cross validation
+K-fold Cross Validation: Split data into k equal chunks; train/test split where chunks "take turns" being the test chunk
+
+## Reflection
+
+This lecture was super interesting! It was great to connect the dots between what is used in both statistics and machine learning domains. I'd particularly like to explore the more flexible models such as neural networks to create more powerful prediction models than could otherwise be created using standard regression.

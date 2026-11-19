@@ -1,45 +1,43 @@
 ---
-title: "Week 3: ggplot"
-description: "First impressions, and getting the workflow."
-date: 2026-08-28
+title: "Week 3: Margins of Error and Plotting"
+description: "Coefficient of Variation and ggplot2"
+date: 2026-09-11
 ---
 
 ## What We Did
 
-<!-- CHANGE THIS: replace with your own notes -->
-
-Set up the portfolio workflow: made a repository from a template, cloned it with
-GitHub Desktop, edited files in RStudio, rendered with Quarto, and published to
-GitHub Pages.
+Learned about the Coefficient of Variation and how to use it to assess the reliability of estimates. We also explored the `ggplot2` package in R for creating visualizations of our data.
 
 ## Key Concepts
 
-Three places a file can live:
+Coefficient of Variation: relative measure of uncertainty; (std. err / estimate) * 100
+- under 15%: reliable
+- under 30: moderately reliable
+- over 30: unreliable
+Within tidycensus:
+moe_sum() - sum of MOEs
+moe_prop() - proportion of MOEs
+moe_ratio() - ratio of MOEs
 
-1. **My computer** — where I edit
-2. **GitHub.com** — where it's stored
-3. **My live site** — what the world sees
+Change over time - watch out for overlapping ACS intervals
 
-The loop: **Edit → Save → Render → Commit → Push → wait → refresh**
+ggplot(data) - creates a blank canvas
+aes(...) - aesthetic mappings (x, y, color, etc.)
+geom_*() - the type of chart, visual components
+ex: ggplot(tractdata) + aes(x = population, y = moe_pct) + geom_point()
 
-## Proving R Works
+geom_histogram() - histogram
+geom_point() - scatterplot
+geom_boxplot() - boxplot
+geom_col() - bar chart
+geom_line() - line chart
+geom_errorbar() - error bars
 
-The chunk below runs when this page renders. If you can see a result underneath
-it on your published site, R and Quarto are talking to each other correctly.
-
-```{r}
-sessionInfo()$R.version$version.string
-```
+other useful chart features:
+coord_flip() - horizontal graph
+slice_head(n = ...) - show only the first few rows of data
+str_remove(var, "pattern") - remove text in labels
 
 ## Reflection
 
-<!-- CHANGE THIS: 3-4 sentences -->
-
-What I want out of this course is to iteratively refine my skills in urban modeling and prediction. I know how to do many of them, but I don't know how to do them well yet.
-
-One thing I'm nervous about is that I won't differentiate my assignments significantly enough from the other classes I take in this program. I want this class to have provided me value that I may demonstrate to future employers, after all.
-
-## Questions I Still Have
-
--
--
+As someone who has used R significantly in the past, I was already familiar with ggplot2 and its syntax. However, I learned a lot about the Coefficient of Variation and how to use it to assess the reliability of estimates. I would like to explore more the ways in which more granular data can be obtained and how to properly analyze it without introducing too much uncertainty.

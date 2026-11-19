@@ -1,0 +1,26 @@
+---
+title: "Week 6: Transformations"
+description: "Logarithmic, Squaring, and Categoricals"
+date: 2026-10-09
+---
+
+## What We Did
+Covered the core concepts of transforming predictors into more usable features for linear regression.
+
+## Key Concepts
+Linear models can only draw straight lines through whatever you give it.
+
+Log-transformation: convert skewed distribution to normal distribution
+
+Square-transformation: allow for the scatterplot trend line to bend
+
+Categorical variable: good when numbers behave like groups
+case_when(): a function for creating conditional statements
+cut(): a function for creating categorical variables from continuous variables
+factor(): signifies groups (in cases of numerical groups)
+
+fixed effect: dummy variable for an unmeasurable factor
+
+## Reflection
+
+We had already covered these transformations in statistics, so I wasn't treading new ground here. Despite that, these three categories of transforms will be extremely helpful when creating the house price predictions. I hope that these will be useful when adapting spatial features towards predicting house prices, such as distance from a park.

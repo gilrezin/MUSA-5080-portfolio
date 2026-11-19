@@ -1,0 +1,29 @@
+---
+title: "Week 8: LISA"
+description: "Spatial correlations, but locally"
+date: 2026-10-23
+---
+
+## What We Did
+Covered LISA, and what makes it different than Moran's I (local v. global)
+
+## Key Concepts
+LISA: Local Indicators of Spatial Association
+- Local Moran's I, one house at a time
+- spatial clusters of errors
+
+Types of LISA observations, in our Chicago house price example:
+high-high: underpredicted pocket; a missing amenity
+high-low: underpredicted house; something about the house itself
+low-high: overpredicted house; something about the house
+low-low: overpredicted pocket; a missing disamenity
+"is my house priced similarly to houses adjacent to it, or is there something about my house in particular?"
+
+nb2listw(): creates a neighbor weight matrix
+near features options:
+- radial buffer
+- nearest feature
+- k-nearest neighbor
+
+## Reflection
+Overall, I found the conversation on LISA to be interesting. We had already covered this in statistics, so it wasn't covering new ground either. But, it wasn't very thoroughly there, so it was good to see yet another example of it in application.

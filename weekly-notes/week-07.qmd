@@ -1,0 +1,38 @@
+---
+title: "Week 7: Improving predictions"
+description: "Where the model is wrong"
+date: 2026-10-16
+---
+
+## What We Did
+Using the transformations from last week, we covered how to analyze and iteratively improve your prediction model in the Chicago house price study.
+
+## Key Concepts
+Logged predictor: percentage rather than linear increase
+
+For dealing with point data, draw a buffer
+- circular boundary around specified point
+- ex: crimes within 660ft of the house
+
+To deal with outliers:
+- find out why those outliers occur in the first place
+- ex: lots of $1 real estate sales regardless of property is due to property transfer
+- deciding what counts is a modelling decision
+
+KNN vs buffer distance -- which is better? Try both, compare RMSE
+
+Mapping residuals is a good guide for targetting variable selection
+
+Tobler's Law of Geography: near things are more similar than distant things
+Spatial Lag: the value of neighboring observations
+- Spatial lag model not great for prediction (requires neighbor values, unactionable for policymakers)
+
+Moran's I: slope of observation residuals to average of neighbor residuals
+- "when I'm above average, are my neighbors above average too?"
+- values near 1: similar values cluster; model is missing something
+- values near 0: no spatial pattern; random noise
+- values below 0: neighbors differ; very rare, check weights
+
+## Reflection
+
+This lecture was a great follow-up to the virtual lecture from the prior week. I felt that it lays out the steps to iteratively improve upon your model in a proper manner. I would be curious to attempt this process to create a predictive model on a dataset of my choosing, such as bus stop delays, which are very spatially clustered due to hotspots of congestion across a city.
